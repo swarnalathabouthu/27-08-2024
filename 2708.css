@@ -1,0 +1,54 @@
+main{
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.section-one{
+    background-color: #6a9c89e1;
+}
+.section-two{
+    background-color: #86ab89e6;
+
+}
+.section-three{
+    background-color: #9cdba69c;
+}
+.section-four{
+    background-color: #B5CFB7;
+
+}
+
+/* Here iam making the portofoilo. */
+@media screen and (max-width:450px){
+    body{
+        width: 300px;
+    }
+}
+@media screen and (min-width:426px )and (max-width:768px){
+    body{
+        width: 426px;
+    }
+ 
+}
+@media screen and (min-width:769px )and (max-width:1024px){
+    body{
+        width: 769px;
+    }
+
+}
+@media screen and (min-width:1025px )and (max-width:1440px){
+    body{
+        width: 1025px;
+    }
+}
+@media screen and (min-width:1441px )and (max-width:2560px){
+    body{
+        width: 1441px;
+    }
+}
